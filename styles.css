@@ -839,11 +839,7 @@ a {
 }
 
 .price {
-	display: inline-block;
-	font-size: 1.1rem;
-	font-weight: 700;
-	color: var(--coral);
-	font-family: "Outfit", sans-serif;
+	display: none;
 }
 
 /* ===== PHOTO GALLERY (NEW) ===== */
