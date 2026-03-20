@@ -11,9 +11,9 @@ const translations = {
         nav_contact: 'Επικοινωνία',
 
         // Hero
-        hero_title_1: 'Κάβα Ποτών',
-        hero_title_2: '& Ξηρών Καρπών',
-        hero_subtitle: 'Ανακαλύψτε τη μοναδική μας συλλογή εκλεκτών ποτών, φρεσκοψημένων ξηρών καρπών και γλυκών απολαύσεων.',
+        hero_title_1: 'Μεράκι στο ποτό.',
+        hero_title_2: 'Φρεσκάδα στον καρπό.',
+        hero_subtitle: 'Κάβα και ξηροί καρποί με χαρακτήρα, στον Άλιμο.',
         hero_cta: 'Εξερευνήστε τη Συλλογή μας',
         hero_cta2: 'Επικοινωνήστε μαζί μας',
         marquee_item1: 'Premium Κρασιά',
@@ -22,13 +22,48 @@ const translations = {
         marquee_item4: 'Σοκολάτες & Γλυκά',
         marquee_item5: 'Καλάθια Δώρων',
 
+        // Trust Bar
+        trust_delivery: 'Δωρεάν αποστολή καλαθιών εντός Αλίμου',
+        trust_variety: 'Μεγάλη ποικιλία ποτών',
+        trust_nuts: 'Φρεσκοψημένοι ξηροί καρποί',
+        trust_service: 'Άμεση εξυπηρέτηση',
+
+        // Featured Categories
+        fcat_nuts: 'Ξηροί Καρποί',
+        fcat_nuts_sub: 'Ψημένοι καθημερινά με αγάπη',
+        fcat_drinks: 'Premium Ποτά',
+        fcat_drinks_sub: 'Επιλεγμένες ετικέτες',
+        fcat_sweets: 'Σοκολάτες & Γλυκά',
+        fcat_sweets_sub: 'Γλυκές απολαύσεις',
+
+        // Why Us
+        why_experience: 'Χρόνια Εμπειρίας',
+        why_drinks: 'Επιλογές Ποτών',
+        why_roasting_num: 'Καθημερινό',
+        why_roasting: 'Ψήσιμο Ξηρών Καρπών',
+        why_delivery_num: 'ΔΩΡΕΑΝ',
+        why_delivery: 'Αποστολή καλαθιών εντός Αλίμου',
+
+        // Best Sellers
+        best_tag: 'Δημοφιλή',
+        best_title: 'Τα Αγαπημένα σας',
+        best_nuts: 'Δημοφιλή Ξηροκάρπια',
+        best_labels: 'Premium Ετικέτες',
+        best_baskets: 'Καλάθια Δώρου',
+        best_choc: 'Σοκολατένιες Επιλογές',
+
+        // Visit Banner
+        visit_title: 'Σας περιμένουμε στον Άλιμο ή στέλνουμε τα καλάθια δώρων στον χώρο σας',
+        visit_cta1: 'Δείτε τα Προϊόντα',
+        visit_cta2: 'Καλέστε μας',
+
         // About
         about_tag: 'Ποιοι Είμαστε',
         about_title: 'Σχετικά με το Κατάστημά μας',
         about_p1: 'Στην κάβα ποτών «Το Φυστίκι», που βρίσκεται στον Άλιμο, θα βρείτε άψογη εξυπηρέτηση και πολύ καλές και συμφέρουσες τιμές.',
         about_p2: 'Με πολύχρονη εμπειρία και συνεχή παρουσία στον χώρο, διαθέτουμε μια μεγάλη ποικιλία ποτών, ξηρών καρπών και κρασιών από την οποία μπορείτε να επιλέξετε αυτό ακριβώς που εσείς επιθυμείτε για δώρο ή για το σπίτι σας.',
         about_p3: 'Βαθιά γνώση, πείρα και μεράκι στον τομέα των ποτών, αναψυκτικών και ζαχαρωδών είναι τα βασικά χαρακτηριστικά που κάνει τη δουλειά μας να ξεχωρίζει.',
-        about_delivery: 'Πραγματοποιούμε αποστολές σε όλη την Αττική. Αποστολές εντός Αλίμου <strong>ΔΩΡΕΑΝ</strong>.',
+        about_delivery: 'Αποστολή καλαθιών δώρων σε όλη την Αθήνα. Αποστολή εντός Αλίμου <strong>ΔΩΡΕΑΝ</strong>.',
 
         // Features
         feature_nuts_title: 'Ξηροί Καρποί',
@@ -50,17 +85,14 @@ const translations = {
         prod_nuts_title: 'Φρεσκοψημένοι Ξηροί Καρποί',
         prod_nuts_desc: 'Φρέσκοι, νόστιμοι & ψημένοι με φροντίδα',
         prod_spirits_cat: 'Ποτά',
-        prod_spirits_title: 'Premium Ποτά',
-        prod_spirits_desc: 'Επιλεγμένη συλλογή spirits & λικέρ',
+        prod_spirits_title: 'Premium Ποτά & Αναψυκτικά',
+        prod_spirits_desc: 'Επιλεγμένη συλλογή ποτών, λικέρ & mixers',
         prod_choc_cat: 'Ζαχαρώδη',
         prod_choc_title: 'Σοκολάτες & Γλυκά',
         prod_choc_desc: 'Ιδιαίτερες γεύσεις σοκολάτας & γλυκών',
         prod_basket_cat: 'Δώρα',
         prod_basket_title: 'Καλάθια Δώρων',
         prod_basket_desc: 'Ευφάνταστες συνθέσεις για κάθε περίσταση',
-        prod_bev_cat: 'Αναψυκτικά',
-        prod_bev_title: 'Αναψυκτικά & Mixers',
-        prod_bev_desc: 'Premium αναψυκτικά για κάθε γούστο',
 
         // Gallery
         gallery_tag: 'Ο Χώρος Μας',
@@ -90,7 +122,7 @@ const translations = {
         contact_address_label: 'Διεύθυνση',
         contact_phone_label: 'Τηλέφωνο',
         contact_hours_label: 'Ώρες Λειτουργίας',
-        contact_hours: 'Δευτέρα–Σάββατο: 9πμ–9μμ<br/>Κυριακή: 10πμ–8μμ',
+        contact_hours: 'Δευτέρα–Σάββατο: 9:30πμ–10μμ<br/>Κυριακή: 10:30πμ–10μμ',
 
         // Footer
         footer_subtitle: 'Κάβα Ποτών & Ξηρών Καρπών',
@@ -109,9 +141,9 @@ const translations = {
         nav_contact: 'Contact',
 
         // Hero
-        hero_title_1: 'Drinks Cellar',
-        hero_title_2: '& Dry Fruit Shop',
-        hero_subtitle: 'Discover our unique collection of fine drinks, freshly roasted nuts, and sweet indulgences.',
+        hero_title_1: 'Passion in every drink.',
+        hero_title_2: 'Freshness in every nut.',
+        hero_subtitle: 'Premium drinks & freshly roasted nuts with character, in Alimos.',
         hero_cta: 'Explore Our Collection',
         hero_cta2: 'Contact Us',
         marquee_item1: 'Premium Wines',
@@ -120,19 +152,54 @@ const translations = {
         marquee_item4: 'Chocolates & Sweets',
         marquee_item5: 'Gift Baskets',
 
+        // Trust Bar
+        trust_delivery: 'Free gift basket delivery in Alimos',
+        trust_variety: 'Wide variety of drinks',
+        trust_nuts: 'Freshly roasted nuts',
+        trust_service: 'Immediate service',
+
+        // Featured Categories
+        fcat_nuts: 'Roasted Nuts',
+        fcat_nuts_sub: 'Roasted daily with love',
+        fcat_drinks: 'Premium Drinks',
+        fcat_drinks_sub: 'Curated selections',
+        fcat_sweets: 'Chocolates & Sweets',
+        fcat_sweets_sub: 'Sweet indulgences',
+
+        // Why Us
+        why_experience: 'Years of Experience',
+        why_drinks: 'Drink Options',
+        why_roasting_num: 'Daily',
+        why_roasting: 'Nut Roasting',
+        why_delivery_num: 'FREE',
+        why_delivery: 'Gift basket delivery in Alimos',
+
+        // Best Sellers
+        best_tag: 'Popular',
+        best_title: 'Your Favorites',
+        best_nuts: 'Popular Nuts',
+        best_labels: 'Premium Spirits',
+        best_baskets: 'Gift Baskets',
+        best_choc: 'Chocolate Picks',
+
+        // Visit Banner
+        visit_title: 'Visit us in Alimos or we deliver gift baskets to your door',
+        visit_cta1: 'See Products',
+        visit_cta2: 'Contact Us',
+
         // About
         about_tag: 'Who We Are',
         about_title: 'About Our Store',
-        about_p1: 'At "To Fistiki" drinks cellar, located in Alimos, you will find impeccable service and very competitive prices.',
+        about_p1: 'At "To Fistiki", located in Alimos, you\'ll find impeccable service and great prices on premium drinks, freshly roasted nuts, and gift baskets.',
         about_p2: 'With years of experience and continuous presence in the field, we offer a wide variety of drinks, nuts, and wines from which you can choose exactly what you desire as a gift or for your home.',
         about_p3: 'Deep knowledge, expertise, and passion in the field of drinks, beverages, and confections are the core qualities that make our work stand out.',
-        about_delivery: 'We deliver throughout Attica. Deliveries within Alimos are <strong>FREE</strong>.',
+        about_delivery: 'Gift basket delivery throughout Athens. Delivery within Alimos is <strong>FREE</strong>.',
 
         // Features
         feature_nuts_title: 'Premium Nuts',
         feature_nuts_desc: 'Hand-picked & freshly roasted by our own hands',
         feature_wines_title: 'Wines & Drinks',
-        feature_wines_desc: 'Selected productions in wide variety',
+        feature_wines_desc: 'Curated selections in wide variety',
         feature_sweets_title: 'Confections',
         feature_sweets_desc: 'Unique flavors of chocolate and sweets',
         feature_gifts_title: 'Gift Baskets',
@@ -148,17 +215,14 @@ const translations = {
         prod_nuts_title: 'Freshly Roasted Nuts',
         prod_nuts_desc: 'Fresh, delicious & carefully roasted',
         prod_spirits_cat: 'Spirits',
-        prod_spirits_title: 'Premium Spirits',
-        prod_spirits_desc: 'Curated collection of spirits & liqueurs',
+        prod_spirits_title: 'Premium Spirits & Beverages',
+        prod_spirits_desc: 'Curated selection of spirits, liqueurs & mixers',
         prod_choc_cat: 'Sweets',
         prod_choc_title: 'Chocolates & Sweets',
         prod_choc_desc: 'Special flavors of chocolate & confections',
         prod_basket_cat: 'Gifts',
         prod_basket_title: 'Gift Baskets',
         prod_basket_desc: 'Creative compositions for every occasion',
-        prod_bev_cat: 'Beverages',
-        prod_bev_title: 'Beverages & Mixers',
-        prod_bev_desc: 'Premium beverages for every taste',
 
         // Gallery
         gallery_tag: 'Our Space',
@@ -188,7 +252,7 @@ const translations = {
         contact_address_label: 'Address',
         contact_phone_label: 'Phone',
         contact_hours_label: 'Opening Hours',
-        contact_hours: 'Monday–Saturday: 9am–9pm<br/>Sunday: 10am–8pm',
+        contact_hours: 'Monday–Saturday: 9:30am–10pm<br/>Sunday: 10:30am–10pm',
 
         // Footer
         footer_subtitle: 'Drinks & Nuts Cellar',
@@ -203,11 +267,7 @@ let currentTheme = localStorage.getItem('tofistiki_theme');
 
 // Match system preference if no saved theme
 if (!currentTheme) {
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        currentTheme = 'dark';
-    } else {
-        currentTheme = 'light';
-    }
+    currentTheme = 'light';
 }
 
 function setTheme(theme) {
@@ -450,6 +510,117 @@ function startTestimonialRotation() {
     testimonialInterval = setInterval(renderTestimonials, 8000);
 }
 
+// ===== CATEGORY GALLERY MODAL =====
+const categoryGalleryData = {
+    nuts: [
+        'media/nuts_1.JPG',
+        'media/nuts_2.JPG',
+        'media/nuts_3.JPG',
+        'media/nuts_4.JPG',
+        'media/nuts_5.JPG',
+        'media/nuts_6.JPG',
+        'media/nuts_7.JPG',
+        'media/nuts_8.JPG',
+        'media/nuts_9.JPG',
+        'media/IMG_7910.JPG',
+        'media/IMG_7911.JPG',
+        'media/IMG_7912.JPG',
+        'media/IMG_7913.JPG',
+        'media/IMG_7914.JPG',
+        'media/IMG_7915.JPG'
+    ],
+    spirits: [
+        'media/pota_1.JPG',
+        'media/pota_2.JPG',
+        'media/pota_3.JPG',
+        'media/pota_4.JPG',
+        'media/pota_5.JPG',
+        'media/pota_6.JPG',
+        'media/pota_7.JPG',
+        'media/pota_8.JPG',
+        'media/pota_9.JPG'
+    ],
+    sweets: [
+        'media/IMG_7692.JPG',
+        'media/IMG_7694.JPG',
+        'media/IMG_7695.JPG',
+        'media/IMG_7696.JPG',
+        'media/IMG_7697.JPG',
+        'media/IMG_7698.JPG',
+        'media/IMG_7930.JPG',
+        'media/IMG_7931.JPG',
+        'media/IMG_7932.JPG',
+        'media/IMG_7933.JPG',
+        'media/IMG_7934.JPG'
+    ],
+    baskets: [
+        'media/kalathia.JPG',
+        'media/kalathia_2.JPG'
+    ]
+};
+
+const categoryGalleryModal = document.getElementById('category-gallery-modal');
+const categoryGalleryGrid = document.getElementById('category-gallery-grid');
+const categoryGalleryTitle = document.getElementById('category-gallery-title');
+const categoryGalleryClose = document.getElementById('category-gallery-close');
+
+function openCategoryGallery(card) {
+    if (!categoryGalleryModal || !categoryGalleryGrid || !categoryGalleryTitle) return;
+
+    const categoryKey = card.dataset.galleryKey;
+    const images = categoryGalleryData[categoryKey] || [];
+    const title = card.querySelector('h3')?.textContent?.trim() || (currentLang === 'en' ? 'Category Gallery' : 'Φωτογραφίες Κατηγορίας');
+
+    categoryGalleryTitle.textContent = title;
+    categoryGalleryGrid.innerHTML = '';
+
+    images.forEach((src, index) => {
+        const imageEl = document.createElement('img');
+        imageEl.src = src;
+        imageEl.loading = index < 4 ? 'eager' : 'lazy';
+        imageEl.alt = `${title} ${index + 1}`;
+        categoryGalleryGrid.appendChild(imageEl);
+    });
+
+    categoryGalleryModal.classList.add('open');
+    categoryGalleryModal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('gallery-open');
+}
+
+function closeCategoryGallery() {
+    if (!categoryGalleryModal) return;
+    categoryGalleryModal.classList.remove('open');
+    categoryGalleryModal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('gallery-open');
+}
+
+function initCategoryGallery() {
+    const cards = document.querySelectorAll('.gallery-trigger');
+    cards.forEach(card => {
+        card.addEventListener('click', () => openCategoryGallery(card));
+        card.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                openCategoryGallery(card);
+            }
+        });
+    });
+
+    categoryGalleryClose?.addEventListener('click', closeCategoryGallery);
+
+    categoryGalleryModal?.addEventListener('click', (e) => {
+        if (e.target instanceof HTMLElement && e.target.hasAttribute('data-close-gallery')) {
+            closeCategoryGallery();
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && categoryGalleryModal?.classList.contains('open')) {
+            closeCategoryGallery();
+        }
+    });
+}
+
 // ===== BUTTON RIPPLE EFFECT =====
 document.querySelectorAll('.btn').forEach(btn => {
     btn.addEventListener('click', function (e) {
@@ -513,6 +684,7 @@ window.addEventListener('DOMContentLoaded', () => {
     setTheme(currentTheme);
     setLanguage(currentLang);
     startTestimonialRotation();
+    initCategoryGallery();
 
     // Force hero elements visible immediately
     document.querySelectorAll('.hero .fade-up').forEach(el => {

@@ -4,15 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Το Φυστίκι — Κάβα Ποτών & Ξηρών Καρπών</title>
+		<link rel="icon" type="image/png" href="media/fystiki_pfp.png" />
 
 		<!-- Advanced SEO & OpenGraph -->
 		<meta
 			name="description"
-			content="Κάβα ποτών και ξηρών καρπών στον Άλιμο. Μεγάλη ποικιλία κρασιών, premium ποτών, φρεσκοψημένων ξηρών καρπών και ιδιαίτερων ζαχαρωδών."
+			content="Κάβα ποτών και ξηρών καρπών στον Άλιμο. Μεγάλη ποικιλία κρασιών, premium ποτών, φρεσκοψημένων ξηρών καρπών, σοκολατών και καλαθιών δώρων με δωρεάν αποστολή εντός Αλίμου."
 		/>
 		<meta
 			name="keywords"
-			content="κάβα, άλιμος, ποτά, κρασιά, ξηροί καρποί, δώρα, καλάθια, σοκολάτες, delivery"
+			content="κάβα, άλιμος, ποτά, κρασιά, ξηροί καρποί, καλάθια δώρων, σοκολάτες, αποστολή καλαθιών, φρεσκοψημένοι ξηροί καρποί"
 		/>
 		<meta
 			property="og:title"
@@ -20,7 +21,7 @@
 		/>
 		<meta
 			property="og:description"
-			content="Η απόλυτη εμπειρία γευσιγνωσίας. Ανακαλύψτε εκλεκτή συλλογή κρασιών και φρεσκοψημένων ξηρών καρπών."
+			content="Premium ποτά, φρεσκοψημένοι ξηροί καρποί και καλάθια δώρων στον Άλιμο. Δωρεάν αποστολή καλαθιών εντός Αλίμου."
 		/>
 		<meta property="og:type" content="website" />
 		<meta property="og:locale" content="el_GR" />
@@ -64,14 +65,14 @@
 							"Friday",
 							"Saturday"
 						],
-						"opens": "09:00",
-						"closes": "21:00"
+						"opens": "09:30",
+						"closes": "22:00"
 					},
 					{
 						"@type": "OpeningHoursSpecification",
 						"dayOfWeek": "Sunday",
-						"opens": "10:00",
-						"closes": "20:00"
+						"opens": "10:30",
+						"closes": "22:00"
 					}
 				]
 			}
@@ -92,7 +93,7 @@
 			<div class="container">
 				<div class="logo">
 					<img
-						src="media/logo.png"
+						src="media/fystiki_pfp.png"
 						alt="Το Φυστίκι Logo"
 						class="logo-img"
 					/>
@@ -182,10 +183,10 @@
 			<div class="hero-content">
 				<h2 class="hero-title fade-up" data-delay="200">
 					<span class="line" data-i18n="hero_title_1"
-						>Κάβα Ποτών</span
+						>Μεράκι στο ποτό.</span
 					>
 					<span class="line accent" data-i18n="hero_title_2"
-						>& Ξηρών Καρπών</span
+						>Φρεσκάδα στον καρπό.</span
 					>
 				</h2>
 				<p
@@ -193,8 +194,7 @@
 					data-delay="400"
 					data-i18n="hero_subtitle"
 				>
-					Ανακαλύψτε τη μοναδική μας συλλογή εκλεκτών ποτών,
-					φρεσκοψημένων ξηρών καρπών και γλυκών απολαύσεων.
+					Κάβα και ξηροί καρποί με χαρακτήρα, στον Άλιμο.
 				</p>
 				<div class="hero-cta fade-up" data-delay="600">
 					<a
@@ -210,48 +210,179 @@
 						>Επικοινωνήστε μαζί μας</a
 					>
 				</div>
-				<!-- Marquee replacing stats -->
-				<div class="hero-marquee fade-up" data-delay="800">
-					<div class="marquee-content">
-						<span data-i18n="marquee_item1">Premium Κρασιά</span>
-						<span class="dot">•</span>
-						<span data-i18n="marquee_item2"
-							>Φρεσκοψημένοι Ξηροί Καρποί</span
+				<!-- Trust Bar -->
+				<div class="trust-bar fade-up" data-delay="700">
+					<div class="trust-badge">
+						<span class="trust-icon">🚚</span>
+						<span data-i18n="trust_delivery"
+							>Δωρεάν αποστολή καλαθιών εντός Αλίμου</span
 						>
-						<span class="dot">•</span>
-						<span data-i18n="marquee_item3">Επιλεγμένα Ποτά</span>
-						<span class="dot">•</span>
-						<span data-i18n="marquee_item4">Σοκολάτες & Γλυκά</span>
-						<span class="dot">•</span>
-						<span data-i18n="marquee_item5">Καλάθια Δώρων</span>
-						<span class="dot">•</span>
-						<!-- Duplicate for infinite scroll loop -->
-						<span aria-hidden="true" data-i18n="marquee_item1"
-							>Premium Κρασιά</span
-						>
-						<span aria-hidden="true" class="dot">•</span>
-						<span aria-hidden="true" data-i18n="marquee_item2"
-							>Φρεσκοψημένοι Ξηροί Καρποί</span
-						>
-						<span aria-hidden="true" class="dot">•</span>
-						<span aria-hidden="true" data-i18n="marquee_item3"
-							>Επιλεγμένα Ποτά</span
-						>
-						<span aria-hidden="true" class="dot">•</span>
-						<span aria-hidden="true" data-i18n="marquee_item4"
-							>Σοκολάτες & Γλυκά</span
-						>
-						<span aria-hidden="true" class="dot">•</span>
-						<span aria-hidden="true" data-i18n="marquee_item5"
-							>Καλάθια Δώρων</span
-						>
-						<span aria-hidden="true" class="dot">•</span>
 					</div>
+					<div class="trust-badge">
+						<span class="trust-icon">🍷</span>
+						<span data-i18n="trust_variety"
+							>Μεγάλη ποικιλία ποτών</span
+						>
+					</div>
+					<div class="trust-badge">
+						<span class="trust-icon">🥜</span>
+						<span data-i18n="trust_nuts"
+							>Φρεσκοψημένοι ξηροί καρποί</span
+						>
+					</div>
+					<div class="trust-badge">
+						<span class="trust-icon">⚡</span>
+						<span data-i18n="trust_service">Άμεση εξυπηρέτηση</span>
+					</div>
+				</div>
+			</div>
+			<!-- Marquee replacing stats -->
+			<div class="hero-marquee fade-up" data-delay="800">
+				<div class="marquee-content">
+					<span data-i18n="marquee_item1">Premium Κρασιά</span>
+					<span class="dot">•</span>
+					<span data-i18n="marquee_item2"
+						>Φρεσκοψημένοι Ξηροί Καρποί</span
+					>
+					<span class="dot">•</span>
+					<span data-i18n="marquee_item3">Επιλεγμένα Ποτά</span>
+					<span class="dot">•</span>
+					<span data-i18n="marquee_item4">Σοκολάτες & Γλυκά</span>
+					<span class="dot">•</span>
+					<span data-i18n="marquee_item5">Καλάθια Δώρων</span>
+					<span class="dot">•</span>
+					<!-- Duplicate for infinite scroll loop -->
+					<span aria-hidden="true" data-i18n="marquee_item1"
+						>Premium Κρασιά</span
+					>
+					<span aria-hidden="true" class="dot">•</span>
+					<span aria-hidden="true" data-i18n="marquee_item2"
+						>Φρεσκοψημένοι Ξηροί Καρποί</span
+					>
+					<span aria-hidden="true" class="dot">•</span>
+					<span aria-hidden="true" data-i18n="marquee_item3"
+						>Επιλεγμένα Ποτά</span
+					>
+					<span aria-hidden="true" class="dot">•</span>
+					<span aria-hidden="true" data-i18n="marquee_item4"
+						>Σοκολάτες & Γλυκά</span
+					>
+					<span aria-hidden="true" class="dot">•</span>
+					<span aria-hidden="true" data-i18n="marquee_item5"
+						>Καλάθια Δώρων</span
+					>
+					<span aria-hidden="true" class="dot">•</span>
 				</div>
 			</div>
 			<div class="hero-scroll">
 				<div class="mouse">
 					<div class="wheel"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Curved Divider -->
+		<div class="hero-wave">
+			<svg
+				viewBox="0 0 1440 80"
+				preserveAspectRatio="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M0,40 C360,80 720,0 1080,40 C1260,60 1380,50 1440,40 L1440,80 L0,80 Z"
+				/>
+			</svg>
+		</div>
+
+		<!-- Featured Categories Strip -->
+		<section class="featured-cats">
+			<div class="container">
+				<div class="featured-cats-grid">
+					<a
+						href="#products"
+						class="featured-cat-card fade-up"
+						data-delay="0"
+					>
+						<img
+							src="media/nuts_5.JPG"
+							alt="Ξηροί Καρποί"
+							loading="lazy"
+						/>
+						<div class="featured-cat-overlay">
+							<h3 data-i18n="fcat_nuts">Ξηροί Καρποί</h3>
+							<p data-i18n="fcat_nuts_sub">
+								Ψημένοι καθημερινά με αγάπη
+							</p>
+						</div>
+					</a>
+					<a
+						href="#products"
+						class="featured-cat-card fade-up"
+						data-delay="100"
+					>
+						<img
+							src="media/pota_3.JPG"
+							alt="Premium Ποτά"
+							loading="lazy"
+						/>
+						<div class="featured-cat-overlay">
+							<h3 data-i18n="fcat_drinks">Premium Ποτά</h3>
+							<p data-i18n="fcat_drinks_sub">
+								Επιλεγμένες ετικέτες
+							</p>
+						</div>
+					</a>
+					<a
+						href="#products"
+						class="featured-cat-card fade-up"
+						data-delay="200"
+					>
+						<img
+							src="media/IMG_7695.JPG"
+							alt="Σοκολάτες & Γλυκά"
+							loading="lazy"
+						/>
+						<div class="featured-cat-overlay">
+							<h3 data-i18n="fcat_sweets">Σοκολάτες & Γλυκά</h3>
+							<p data-i18n="fcat_sweets_sub">Γλυκές απολαύσεις</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Why Us / Stats Row -->
+		<section class="why-us">
+			<div class="container">
+				<div class="why-us-grid">
+					<div class="why-us-item fade-up" data-delay="0">
+						<span class="why-us-number">30+</span>
+						<span class="why-us-label" data-i18n="why_experience"
+							>Χρόνια Εμπειρίας</span
+						>
+					</div>
+					<div class="why-us-item fade-up" data-delay="100">
+						<span class="why-us-number">100+</span>
+						<span class="why-us-label" data-i18n="why_drinks"
+							>Επιλογές Ποτών</span
+						>
+					</div>
+					<div class="why-us-item fade-up" data-delay="200">
+						<span class="why-us-number" data-i18n="why_roasting_num"
+							>Καθημερινό</span
+						>
+						<span class="why-us-label" data-i18n="why_roasting"
+							>Ψήσιμο Ξηρών Καρπών</span
+						>
+					</div>
+					<div class="why-us-item fade-up" data-delay="300">
+						<span class="why-us-number" data-i18n="why_delivery_num"
+							>ΔΩΡΕΑΝ</span
+						>
+						<span class="why-us-label" data-i18n="why_delivery"
+							>Αποστολή καλαθιών εντός Αλίμου</span
+						>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -291,8 +422,8 @@
 						<div class="about-delivery fade-up">
 							<div class="delivery-icon">🚚</div>
 							<p data-i18n="about_delivery">
-								Πραγματοποιούμε αποστολές σε όλη την Αττική.
-								Αποστολές εντός Αλίμου <strong>ΔΩΡΕΑΝ</strong>.
+								Αποστολή καλαθιών δώρων σε όλη την Αθήνα.
+								Αποστολή εντός Αλίμου <strong>ΔΩΡΕΑΝ</strong>.
 							</p>
 						</div>
 					</div>
@@ -350,35 +481,17 @@
 					<div class="title-decoration fade-up"></div>
 				</div>
 				<div class="products-grid">
-					<!-- Product 1: Wines -->
-					<div class="product-card fade-up" data-delay="0">
+					<!-- Product 1: Nuts -->
+					<div
+						class="product-card gallery-trigger fade-up"
+						data-delay="100"
+						data-gallery-key="nuts"
+						tabindex="0"
+						role="button"
+					>
 						<div class="product-image">
 							<img
-								src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&h=800&fit=crop"
-								alt="Premium Wines"
-								loading="lazy"
-							/>
-							<div class="product-overlay">
-								<span
-									class="product-category"
-									data-i18n="prod_wines_cat"
-									>Κρασιά</span
-								>
-							</div>
-						</div>
-						<div class="product-info">
-							<h3 data-i18n="prod_wines_title">Εκλεκτά Κρασιά</h3>
-							<p data-i18n="prod_wines_desc">
-								Επιλεγμένα κρασιά από τα καλύτερα αμπελώνια
-							</p>
-						</div>
-					</div>
-
-					<!-- Product 2: Nuts -->
-					<div class="product-card fade-up" data-delay="100">
-						<div class="product-image">
-							<img
-								src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=600&h=800&fit=crop"
+								src="media/nuts_3.JPG"
 								alt="Roasted Nuts"
 								loading="lazy"
 							/>
@@ -401,10 +514,16 @@
 					</div>
 
 					<!-- Product 3: Spirits -->
-					<div class="product-card fade-up" data-delay="200">
+					<div
+						class="product-card gallery-trigger fade-up"
+						data-delay="200"
+						data-gallery-key="spirits"
+						tabindex="0"
+						role="button"
+					>
 						<div class="product-image">
 							<img
-								src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=600&h=800&fit=crop"
+								src="media/pota_1.JPG"
 								alt="Premium Spirits"
 								loading="lazy"
 							/>
@@ -417,18 +536,26 @@
 							</div>
 						</div>
 						<div class="product-info">
-							<h3 data-i18n="prod_spirits_title">Premium Ποτά</h3>
+							<h3 data-i18n="prod_spirits_title">
+								Premium Ποτά & Αναψυκτικά
+							</h3>
 							<p data-i18n="prod_spirits_desc">
-								Επιλεγμένη συλλογή spirits & λικέρ
+								Επιλεγμένη συλλογή ποτών, λικέρ & mixers
 							</p>
 						</div>
 					</div>
 
 					<!-- Product 4: Chocolates -->
-					<div class="product-card fade-up" data-delay="300">
+					<div
+						class="product-card gallery-trigger fade-up"
+						data-delay="300"
+						data-gallery-key="sweets"
+						tabindex="0"
+						role="button"
+					>
 						<div class="product-image">
 							<img
-								src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=600&h=800&fit=crop"
+								src="media/IMG_7692.JPG"
 								alt="Chocolates & Sweets"
 								loading="lazy"
 							/>
@@ -451,10 +578,16 @@
 					</div>
 
 					<!-- Product 5: Gift Baskets -->
-					<div class="product-card fade-up" data-delay="400">
+					<div
+						class="product-card gallery-trigger fade-up"
+						data-delay="400"
+						data-gallery-key="baskets"
+						tabindex="0"
+						role="button"
+					>
 						<div class="product-image">
 							<img
-								src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600&h=800&fit=crop"
+								src="media/kalathia.JPG"
 								alt="Gift Baskets"
 								loading="lazy"
 							/>
@@ -470,32 +603,6 @@
 							<h3 data-i18n="prod_basket_title">Καλάθια Δώρων</h3>
 							<p data-i18n="prod_basket_desc">
 								Ευφάνταστες συνθέσεις για κάθε περίσταση
-							</p>
-						</div>
-					</div>
-
-					<!-- Product 6: Beverages -->
-					<div class="product-card fade-up" data-delay="500">
-						<div class="product-image">
-							<img
-								src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&h=800&fit=crop"
-								alt="Beverages & Mixers"
-								loading="lazy"
-							/>
-							<div class="product-overlay">
-								<span
-									class="product-category"
-									data-i18n="prod_bev_cat"
-									>Αναψυκτικά</span
-								>
-							</div>
-						</div>
-						<div class="product-info">
-							<h3 data-i18n="prod_bev_title">
-								Αναψυκτικά & Mixers
-							</h3>
-							<p data-i18n="prod_bev_desc">
-								Premium αναψυκτικά για κάθε γούστο
 							</p>
 						</div>
 					</div>
@@ -518,43 +625,29 @@
 				<div class="gallery-masonry">
 					<div class="gallery-item fade-up" data-delay="0">
 						<img
-							src="https://images.unsplash.com/photo-1574044195191-2dc04aeb53c4?w=800&h=600&fit=crop"
-							alt="Store Interior"
+							src="media/gallery.JPG"
+							alt="Το Φυστίκι"
 							loading="lazy"
 						/>
 					</div>
 					<div class="gallery-item fade-up" data-delay="100">
 						<img
-							src="https://images.unsplash.com/photo-1585553616435-2dc0a54e271d?w=800&h=1000&fit=crop"
-							alt="Wine Details"
+							src="media/gallery_2.JPG"
+							alt="Το Φυστίκι"
 							loading="lazy"
 						/>
 					</div>
 					<div class="gallery-item fade-up" data-delay="200">
 						<img
-							src="https://images.unsplash.com/photo-1549419137-eebe1edc4e33?w=800&h=800&fit=crop"
-							alt="Sweets Display"
+							src="media/gallery_3.JPG"
+							alt="Το Φυστίκι"
 							loading="lazy"
 						/>
 					</div>
 					<div class="gallery-item fade-up" data-delay="300">
 						<img
-							src="https://images.unsplash.com/photo-1582236592200-e176d0ae526d?w=800&h=1200&fit=crop"
-							alt="Spirits Collection"
-							loading="lazy"
-						/>
-					</div>
-					<div class="gallery-item fade-up" data-delay="400">
-						<img
-							src="https://images.unsplash.com/photo-1599839619722-39751411ea63?w=800&h=600&fit=crop"
-							alt="Store Front"
-							loading="lazy"
-						/>
-					</div>
-					<div class="gallery-item fade-up" data-delay="500">
-						<img
-							src="https://images.unsplash.com/photo-1473243110991-6de64efec2ce?w=800&h=800&fit=crop"
-							alt="Nuts Variety"
+							src="media/gallery_4.JPG"
+							alt="Το Φυστίκι"
 							loading="lazy"
 						/>
 					</div>
@@ -581,84 +674,27 @@
 			</div>
 		</section>
 
-		<!-- Gift Baskets Gallery -->
-		<section id="baskets" class="gift-baskets">
+		<!-- Visit Us / Delivery Banner -->
+		<section class="visit-banner">
 			<div class="container">
-				<div class="section-header">
-					<span class="section-tag fade-up" data-i18n="baskets_tag"
-						>Ειδικές Συνθέσεις</span
-					>
-					<h2 class="section-title fade-up" data-i18n="baskets_title">
-						Δώρα & Καλάθια
-					</h2>
-					<div class="title-decoration fade-up"></div>
-					<p class="section-desc fade-up" data-i18n="baskets_desc">
-						Επιλέξτε από μια ποικιλία ευφάνταστων συνθέσεων για κάθε
-						περίσταση
-					</p>
-				</div>
-				<div class="baskets-gallery">
-					<div class="basket-item fade-up" data-delay="0">
-						<img
-							src="https://images.unsplash.com/photo-1543934638-bd2e138430c4?w=500&h=500&fit=crop"
-							alt="Christmas Basket"
-							loading="lazy"
-						/>
-						<div class="basket-overlay">
-							<h4 data-i18n="basket_christmas">
-								Χριστουγεννιάτικο
-							</h4>
-						</div>
-					</div>
-					<div class="basket-item fade-up" data-delay="100">
-						<img
-							src="https://images.unsplash.com/photo-1482012792084-a0c3725f289f?w=500&h=500&fit=crop"
-							alt="New Year Basket"
-							loading="lazy"
-						/>
-						<div class="basket-overlay">
-							<h4 data-i18n="basket_newyear">Πρωτοχρονιάτικο</h4>
-						</div>
-					</div>
-					<div class="basket-item fade-up" data-delay="200">
-						<img
-							src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=500&h=500&fit=crop"
-							alt="Birthday Basket"
-							loading="lazy"
-						/>
-						<div class="basket-overlay">
-							<h4 data-i18n="basket_birthday">Γενεθλίων</h4>
-						</div>
-					</div>
-					<div class="basket-item fade-up" data-delay="300">
-						<img
-							src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop"
-							alt="Anniversary Basket"
-							loading="lazy"
-						/>
-						<div class="basket-overlay">
-							<h4 data-i18n="basket_anniversary">Επετείου</h4>
-						</div>
-					</div>
-					<div class="basket-item fade-up" data-delay="400">
-						<img
-							src="https://images.unsplash.com/photo-1481391032119-d89fee407e44?w=500&h=500&fit=crop"
-							alt="Corporate Basket"
-							loading="lazy"
-						/>
-						<div class="basket-overlay">
-							<h4 data-i18n="basket_corporate">Εταιρικό</h4>
-						</div>
-					</div>
-					<div class="basket-item fade-up" data-delay="500">
-						<img
-							src="https://images.unsplash.com/photo-1516594798947-e65505dbb29d?w=500&h=500&fit=crop"
-							alt="Wedding Basket"
-							loading="lazy"
-						/>
-						<div class="basket-overlay">
-							<h4 data-i18n="basket_wedding">Γάμου</h4>
-						</div>
+				<div class="visit-banner-inner fade-up">
+					<h3 data-i18n="visit_title">
+						Σας περιμένουμε στον Άλιμο ή στέλνουμε τα καλάθια δώρων
+						στον χώρο σας
+					</h3>
+					<div class="visit-cta">
+						<a
+							href="#products"
+							class="btn btn-primary"
+							data-i18n="visit_cta1"
+							>Δείτε τα Προϊόντα</a
+						>
+						<a
+							href="#contact"
+							class="btn btn-outline-dark"
+							data-i18n="visit_cta2"
+							>Καλέστε μας</a
+						>
 					</div>
 				</div>
 			</div>
@@ -718,8 +754,8 @@
 									>Ώρες Λειτουργίας</strong
 								>
 								<p data-i18n="contact_hours">
-									Δευτέρα–Σάββατο: 9πμ–9μμ<br />Κυριακή:
-									10πμ–8μμ
+									Δευτέρα–Σάββατο: 9:30πμ-10μμ<br />Κυριακή:
+									10:30πμ–10μμ
 								</p>
 							</div>
 						</div>
@@ -858,6 +894,37 @@
 				<polyline points="18 15 12 9 6 15"></polyline>
 			</svg>
 		</button>
+
+		<div
+			class="category-gallery-modal"
+			id="category-gallery-modal"
+			aria-hidden="true"
+		>
+			<div class="category-gallery-backdrop" data-close-gallery></div>
+			<div
+				class="category-gallery-content"
+				role="dialog"
+				aria-modal="true"
+				aria-labelledby="category-gallery-title"
+			>
+				<button
+					class="category-gallery-close"
+					id="category-gallery-close"
+					type="button"
+					aria-label="Close gallery"
+				>
+					&times;
+				</button>
+				<h3
+					id="category-gallery-title"
+					class="category-gallery-title"
+				></h3>
+				<div
+					class="category-gallery-grid"
+					id="category-gallery-grid"
+				></div>
+			</div>
+		</div>
 
 		<script src="reviews-data.js"></script>
 		<script src="script.js"></script>
