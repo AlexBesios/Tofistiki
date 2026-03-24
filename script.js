@@ -105,6 +105,15 @@ const translations = {
         test_2_txt: 'Η καλύτερη κάβα στα νότια προάστια! Οι ξηροί καρποί είναι πάντα ολόφρεσκοι και οι τιμές πολύ προσιτές. Εξαιρετική εξυπηρέτηση.',
         test_3_txt: 'Έφτιαξαν δύο υπέροχα καλάθια δώρου για τα Χριστούγεννα και τα έστειλαν κατευθείαν στους συνεργάτες μου. Άψογοι επαγγελματίες!',
 
+        // Order Platforms
+        order_tag: 'Παραγγείλτε Online',
+        order_title: 'Βρείτε μας & στο eFood και στο Wolt',
+        order_efood_title: 'Παραγγελία μέσω eFood',
+        order_efood_desc: 'Ξηροί καρποί, ποτά & πολλά ακόμα με delivery στην πόρτα σας',
+        order_wolt_title: 'Παραγγελία μέσω Wolt',
+        order_wolt_desc: 'Γρήγορη παράδοση με αγαπημένα προϊόντα από το κατάστημά μας',
+        order_cta: 'Παραγγείλτε τώρα →',
+
         // Baskets
         baskets_tag: 'Ειδικές Συνθέσεις',
         baskets_title: 'Δώρα & Καλάθια',
@@ -234,6 +243,15 @@ const translations = {
         test_1_txt: 'Huge variety in wines and nuts. The staff is highly trained and helped me pick the perfect gift!',
         test_2_txt: 'The best cellar in the southern suburbs! The nuts are always fresh and prices are very affordable. Excellent service.',
         test_3_txt: 'They made two wonderful gift baskets for Christmas and sent them directly to my partners. True professionals!',
+
+        // Order Platforms
+        order_tag: 'Order Online',
+        order_title: 'Find us on eFood and Wolt',
+        order_efood_title: 'Order via eFood',
+        order_efood_desc: 'Nuts, drinks & more delivered to your door',
+        order_wolt_title: 'Order via Wolt',
+        order_wolt_desc: 'Fast delivery of your favorite products from our store',
+        order_cta: 'Order now →',
 
         // Baskets
         baskets_tag: 'Special Compositions',

@@ -771,6 +771,106 @@ a {
 	text-align: center;
 }
 
+/* ===== ORDER PLATFORMS (eFOOD & WOLT) ===== */
+.order-platforms {
+	padding: 5rem 0;
+	background: var(--bg-alt);
+}
+
+.platforms-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.platform-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background: var(--card-bg);
+	border-radius: var(--radius-lg);
+	padding: 2.5rem 2rem;
+	box-shadow: var(--shadow-md);
+	border: 1px solid var(--card-border);
+	text-decoration: none;
+	color: var(--text-color);
+	transition: var(--transition);
+	position: relative;
+	overflow: hidden;
+}
+
+.platform-card::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4px;
+	transition: height 0.3s ease;
+}
+
+.efood-card::before {
+	background: #ef6c00;
+}
+
+.wolt-card::before {
+	background: #009de0;
+}
+
+.platform-card:hover {
+	transform: translateY(-8px);
+	box-shadow: var(--shadow-xl);
+}
+
+.platform-card:hover::before {
+	height: 6px;
+}
+
+.platform-logo {
+	margin-bottom: 1.5rem;
+}
+
+.platform-svg {
+	width: 120px;
+	height: 40px;
+}
+
+.platform-card h3 {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	color: var(--text-color);
+}
+
+.platform-card p {
+	font-size: 0.95rem;
+	color: var(--text-muted);
+	margin-bottom: 1.5rem;
+	line-height: 1.6;
+}
+
+.platform-cta {
+	font-weight: 600;
+	font-size: 0.95rem;
+	color: var(--deep-red);
+	transition: var(--transition);
+}
+
+.platform-card:hover .platform-cta {
+	letter-spacing: 0.5px;
+}
+
+.efood-card:hover .platform-cta {
+	color: #ef6c00;
+}
+
+.wolt-card:hover .platform-cta {
+	color: #009de0;
+}
+
 /* ===== VISIT US / DELIVERY BANNER ===== */
 .visit-banner {
 	padding: 4rem 0;
@@ -1875,6 +1975,11 @@ footer {
 
 	.testimonials-grid {
 		grid-template-columns: 1fr;
+	}
+
+	.platforms-grid {
+		grid-template-columns: 1fr;
+		max-width: 400px;
 	}
 
 	.contact-grid {
