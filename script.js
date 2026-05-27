@@ -107,7 +107,7 @@ const translations = {
 
         // Order Platforms
         order_tag: 'Παραγγείλτε Online',
-        order_title: 'Βρείτε μας & στο eFood και στο Wolt',
+        order_title: 'Βρείτε μας σε eFood και σε Wolt',
         order_efood_title: 'Παραγγελία μέσω eFood',
         order_efood_desc: 'Ξηροί καρποί, ποτά & πολλά ακόμα με delivery στην πόρτα σας',
         order_wolt_title: 'Παραγγελία μέσω Wolt',
@@ -246,7 +246,7 @@ const translations = {
 
         // Order Platforms
         order_tag: 'Order Online',
-        order_title: 'Find us on eFood and Wolt',
+        order_title: 'Find us on eFood and on Wolt',
         order_efood_title: 'Order via eFood',
         order_efood_desc: 'Nuts, drinks & more delivered to your door',
         order_wolt_title: 'Order via Wolt',
@@ -533,7 +533,6 @@ const categoryGalleryData = {
     nuts: [
         'media/nuts_1.JPG',
         'media/nuts_2.JPG',
-        'media/nuts_3.JPG',
         'media/nuts_4.JPG',
         'media/nuts_5.JPG',
         'media/nuts_6.JPG',

@@ -324,24 +324,18 @@ a {
 .hero-bg {
 	position: absolute;
 	inset: 0;
-	background: linear-gradient(
-		135deg,
-		#9e3b3b 0%,
-		#7a2d2d 30%,
-		#d25353 60%,
-		#9e3b3b 100%
-	);
+	background-image: url("media/hero.JPG");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	z-index: 0;
 }
 
 [data-theme="dark"] .hero-bg {
-	background: linear-gradient(
-		135deg,
-		#3a1515 0%,
-		#200a0a 30%,
-		#5c2020 60%,
-		#3a1515 100%
-	);
+	background-image: url("media/hero.JPG");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .hero-bg::before {
@@ -392,9 +386,9 @@ a {
 	inset: 0;
 	background: linear-gradient(
 		180deg,
-		rgba(44, 24, 16, 0.15) 0%,
-		rgba(44, 24, 16, 0.05) 50%,
-		rgba(44, 24, 16, 0.3) 100%
+		rgba(44, 24, 16, 0.55) 0%,
+		rgba(44, 24, 16, 0.45) 50%,
+		rgba(44, 24, 16, 0.65) 100%
 	);
 	z-index: 1;
 }
@@ -813,7 +807,7 @@ a {
 }
 
 .efood-card::before {
-	background: #ef6c00;
+	background: #e30613;
 }
 
 .wolt-card::before {
@@ -864,7 +858,7 @@ a {
 }
 
 .efood-card:hover .platform-cta {
-	color: #ef6c00;
+	color: #e30613;
 }
 
 .wolt-card:hover .platform-cta {
